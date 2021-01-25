@@ -1,0 +1,19 @@
+{
+  "name": "Registration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/regis.js -e js,hbs "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
